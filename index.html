@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Api Rick and Morty</h1>
+        <button class="btn-todos" id="getAll"> ver todos</button>
+    </div>
+    <div class="form">
+        <fieldset>
+           <legend style="color: rgb(120, 120, 117);">Filtros</legend>
+           <input type="text" id="name" placeholder="Buscar personaje por nombre" />
+           <select id="estado">
+                 <option value="">-- Estado --</option>
+                 <option value="Alive">Vivos</option>
+                 <option value="Dead">Muertos</option>
+                 <option value="unknown">Desconocido</option>
+           </select>
+          <label><input type="radio" name="especie" id="humano" value="Human"> Humano</label>
+          <label><input type="radio" name="especie" id="alien" value="Alien"> Alien</label>
+        </fieldset>
+    </div>
+    <hr style="width: 90%; border: 1px solid rgb(120, 120, 117);">
+    <div class="main">
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

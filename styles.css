@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;  
+    top: 0;        
+    left: 0;         
+    width: 100%;     
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.form {
+    margin-top: 110px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 14px;
+    align-items: flex-start;
+    width: 90%; 
+    margin-left: 50px;
+}
+.form label {
+    font-size: 22px;
+}
+#estado{
+     font-size: 18px;
+}
+.form input{
+    font-size: 18px;
+}
+.btn-todos {
+    margin-left: auto;
+    margin-right: 50px;
+    height: 40px;
+    padding: 0 15px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.main{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+  width: auto;
+  background-color: #d7cfcf;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.8);
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+}
+
+img{
+     border-radius: 12px;
+}
+
+.card:hover{
+    box-shadow: 2px 6px 10px rgba(0,0,0,0.8);
+    font-size: 20px;
+    color: #333276;
+}
+
+
+@media (max-width: 600px) {
+  .form {   
+    align-items:center;                   
+    width: 80%;
+    padding: 10px;
+  }
+
+  .form input,
+  .form select {
+    font-size: 15px;
+    width: 100%;
+    margin: 5px;
+  }
+
+  .form label {
+    font-size: 15px;
+    margin:5px;
+  }
+
+}
